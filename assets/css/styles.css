@@ -1,0 +1,238 @@
+/* GERAL */
+*{
+  font-family: 'Open Sans', sans-serif;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo_padrao{
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+/* TOPO */
+#topo {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+#logo{
+  position: absolute;
+  top: 25px;
+  width: 250px;
+  height: 67px;
+  left: 50%;
+  margin:  0 0 0 -125px;
+  background: url('../../img/logo_seven.jpg') no-repeat;
+  text-indent: -1000px;
+  overflow: hidden;
+  background-size: 250px 67px; 
+}
+
+#logo a{
+  width: 250px;
+  height: 57px;
+  display: block;
+}
+
+/* CONTEÚDO SITE */
+.title_site{
+  font-size: 1.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0 5px;
+  color: #1F3574;
+}
+
+.subtitle_site{
+  margin: 0 0 40px ;
+  text-align: center; 
+}
+
+/* SERVIÇOS */
+section ul li img{
+  width: 100%;
+  border-radius: 50%;
+  height: 160px;
+  /* background-size: 57px 57px;  */
+}
+
+#lista_servicos{
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#lista_servicos li {
+  float: left;
+  text-align: center;
+  width: 30%;
+  margin-right: 5%;
+  margin-bottom: 25px;
+  padding: 20px 0 35px;
+  cursor: pointer;
+  height: 300px;
+  transition: all 200ms linear 0s;
+}
+
+#lista_servicos li:hover{
+  padding-top: 10px;
+}
+
+#lista_servicos li:nth-child(3n){
+  margin-right: 0;
+}
+
+#lista_servicos img {
+  display: block;
+  margin: 0 auto;
+}
+
+#lista_servicos li p {
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #1F3574;
+  font-weight: bold;
+}
+
+#lista_servicos li span {
+  font-size: 1rem;
+  color: #3a3b3c;
+}
+
+.link_botao{
+  margin-top: .7%;
+  display: inline-block;
+  position: relative;
+  background:  #1F3574;
+  padding: 4px 15px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.link_botao:hover{
+  background: #ccc;
+  color: #1F3574;
+}
+
+/* NEWSLETTER */
+#newsletter {
+  margin-top: .7%;
+  background:  #1F3574;
+  padding: 25px 0;
+  color: #fff;
+  overflow: hidden;
+}
+
+#newsletter h2 {
+  margin: 0;
+  text-transform: uppercase;
+
+}
+
+/* FORM NEWSLETTER*/
+#form_newsletter{
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+
+#form_newsletter fieldset{
+  border: none;
+}
+
+#form_newsletter div{
+  float: left;
+  width: 50%;
+  padding: 4px 0;
+  overflow: hidden;
+}
+
+#form_newsletter div.submit{
+  width: 100%;
+}
+
+#form_newsletter label{
+  font-size: 1.1rem;
+  padding-right: 2%;
+}
+
+#form_newsletter input {
+  height: 30px;
+}
+
+#form_newsletter .input_campo{
+  border: 1px solid #c6c6c6;
+  padding: 0 5px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#form_newsletter .input_submit {
+  width: 40%;
+  display: block;
+  margin: 15px auto 0;
+  background: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+/* RODAPÉ */
+#rodape{
+  text-align: center;
+  background: #999;
+  font-size: 1rem;
+  padding: 15px 0 10px;
+  color: #fff;
+}
+
+.rede_social{
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  text-indent: -1000px;
+  overflow: hidden;
+  margin: 0 5px;
+  /* border: 1px solid; */
+  border-radius: 5px;
+}
+
+.rede_social_fb {
+  background: url('../../img/facebook.png') no-repeat;
+}
+
+.rede_social_tw {
+  background: url('../../img/twitter_02.png') no-repeat;
+}
+
+.rede_social_gp {
+  background: url('../../img/googleplus_01.png') no-repeat;
+}
+
